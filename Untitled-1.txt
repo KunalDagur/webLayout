@@ -1,0 +1,494 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+header .header-text{
+    text-align: center;
+    font-size: 0.938rem;
+    background-color: rgb(84, 198, 198);
+    padding: 1rem 3%;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+header .header-text a{
+    text-decoration: none;
+    color: white;
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem 11rem;
+}
+
+header .navbar .nav-logo:hover{
+    cursor: pointer;
+}
+
+header .navbar .nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .navbar .nav-list li{
+    list-style: none;
+    margin-left: 3rem;
+}
+
+header .navbar .nav-list li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: rgb(40, 34, 75);
+}
+
+header .navbar .nav-list li a:hover{
+    color: rgb(18, 194, 194);
+    transition: .3s;
+}
+
+.navbar .nav-list .nav-box{
+    margin-left: 3rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(61, 132, 132);
+    border-radius: .4rem;
+}
+
+.navbar .nav-list .nav-box:hover{
+    cursor: pointer;
+}
+
+.navbar .nav-list .nav-box img{
+    margin-top: 25%;
+    margin-left: 25%;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++ */
+
+.home1{
+    display: flex;
+    margin: 8rem 11rem;
+    align-items: center;
+}
+
+.home1 .home1-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.home1 .home1-text h1{
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+    font-weight: 700;
+}
+
+.home1 .home1-text span{
+    color: rgb(53, 184, 190);
+}
+
+.home1 .home1-text p{
+    margin-top: 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgb(84, 98, 133);
+}
+
+.home1 .home1-text button{
+    margin-top: 3.5rem;
+    margin-bottom: 2.5rem;
+    width: 12rem;
+    color: white;
+    background-color: rgb(20, 191, 191);
+    padding: 1.2rem 1.8rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+.home1 .home1-text button:hover{
+    background-color: rgb(29, 163, 163);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.home1 .home1-text button a{
+    text-decoration: none;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: white;
+}
+
+.home1-text-rating{
+    margin-top: .7rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++ */
+
+.home2{
+    margin: 10rem 1.5rem;
+    background-color: aliceblue;
+}
+
+.home2-content{
+    display: flex;
+    margin: 5rem 9.5rem;
+    padding: 5rem 0rem;
+    align-items: center;
+}
+
+
+.home2-content-text h2{
+    margin-right: 12rem;
+    font-size: 3.438rem;
+    line-height: 3.438rem;
+    font-weight: 700;
+    color: rgb(53, 184, 190);
+}
+
+.home2-content-text p{
+    margin-right: 5rem;
+    margin-top: 1.3rem;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    font-weight: 400;
+    color: rgb(84, 98, 133);
+}
+
+.home2-content-text a button{
+    padding: 1.3rem 2.5rem;
+    color: white;
+    background-color: rgb(29, 163, 163);
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    border: none;
+    border-radius: .5rem;
+    margin-top: 3rem;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.home3{
+    margin: 10rem 11rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home3-text h2{
+    font-size: 3.438rem;
+    line-height: 3.438rem;
+    font-weight: 700;
+    color: rgb(53, 184, 190);
+    margin-bottom: 2rem;
+}
+
+.home3-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home3-container-box{
+    text-align: center;
+    margin: .5rem;
+}
+
+.home3-container-box h5{
+    margin-top: 3rem ;
+    font-size: 1.375rem;
+    line-height: 1.375rem;
+    font-weight: 700;
+    color: rgb(8, 9, 10);
+}
+
+.home3-container-box p{
+    margin: 1rem 1.5rem 0rem 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    font-weight: 400;
+    color: rgb(84, 98, 133);
+}
+
+.home3-container-box img{
+    width: 20rem;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.home4{
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home4-text{
+    text-align: center;
+}
+
+.home4-text h2{
+    font-size: 3.438rem;
+    line-height: 3.438rem;
+    font-weight: 700;
+    color: rgb(53, 184, 190);
+}
+
+.home4-text p{
+    margin-top: 1rem;
+    width: 35rem;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    font-weight: 400;
+    color: rgb(84, 98, 133);
+}
+
+.home4-text p span a{
+    color: rgb(53, 184, 190);
+}
+
+.home4-content{
+    background-color: aliceblue;
+    padding: 3rem 9rem 0rem 9rem;
+    margin: 2rem 2rem;
+}
+
+.home4-content-tab{
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.home4-content-tab a button{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: rgb(34, 34, 34);
+    padding: 1.2rem 3.5rem;
+    margin-left: 1.5rem;
+    border-radius: .4rem;
+    border: .1px solid grey;
+}
+
+.home4-content-tab a button:hover{
+    background-color: rgb(18, 194, 194);
+    color: white;
+    border: none;
+    padding: 1.2rem 3.5rem;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.home4-content-containers{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.home4-content-container-box{
+    display: flex;
+    margin: 1rem;
+    border-radius: .5rem;
+    background-color: white;
+    border: .5px solid grey;
+}
+
+.home4-content-container-box:hover{
+    transition: .3s;
+    border: 1px solid rgb(18, 194, 194);
+}
+
+.home4-content-container-box .img img{
+    border-radius: 1rem;
+    width: 7.3rem;
+}
+
+.home4-content-container-box .img{
+    padding: 2rem 1.5rem;
+}
+
+.home4-container-box-text{
+    padding: 2rem 1.5rem 0rem 0rem;
+}
+
+.home4-container-box-text .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home4-container-box-text .price a{
+    text-decoration: none;
+    color: rgb(53, 184, 190);
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.home4-container-box-text h6{
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    color: rgb(8, 9, 10);
+}
+
+.home4-container-box-text p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgb(84, 98, 133);
+}
+
+.home4-container-box-input{
+    margin-top: .7rem;
+    margin-bottom: 1.5rem;
+}
+
+.home4-container-box-input .amount{
+    font-size: .938rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    width: 3.5rem;
+    padding: .6rem .3rem .6rem .5rem;
+    border-radius: .3rem;
+    border: 1px solid black;
+    background-color: azure;
+}
+
+.home4-container-box-input .button{
+    font-size: .938rem;
+    line-height: normal;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 184, 190);
+    border: none;
+    padding: .8rem 1.3rem;
+    border-radius: .5rem;
+}
+
+.home4-container-box-input .button:hover{
+    cursor: pointer;
+}
+
+.menu-button{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.menu-button button{
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(53, 184, 190);
+    padding: 1.3rem 2.5rem;
+    border-radius: .5rem;
+    border: none;
+}
+
+.menu-button button:hover{
+    background-color: rgb(39, 175, 182);
+    cursor: pointer;
+    transition: .3s;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.home5{
+    margin: 15rem 8rem;
+    display: flex;
+    align-items: center;
+}
+
+.home5-image img{
+    width: 36.125rem;
+}
+
+.home5-text h2{
+    font-size: 3.438rem;
+    line-height: 3.438rem;
+    font-weight: 700;
+    color: rgb(53, 184, 190);
+}
+
+.home5-text p{
+    margin-top: 1.5rem;
+    padding-right: 6rem;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    font-weight: 400;
+    color: rgb(84, 98, 133);
+}
+
+.home5-text a button{
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(53, 184, 190);
+    border-radius: .5rem;
+    padding: 1.3rem 2.3rem;
+    border: none;
+    margin-top: 3rem;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++ */
+
+.home6{
+    margin: 5rem 3.6rem;
+}
+
+.home6-content{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding: 5rem 0rem;
+}
+.home6-content-text{
+    margin-left: 7rem;
+    margin-right: 2rem;
+}
+
+.home6-content-text h2{
+    font-size: 3.438rem;
+    line-height: 3.438rem;
+    font-weight: 700;
+    color: rgb(53, 184, 190);
+}
+
+.home6-content-text p{
+    margin-top: 1.3rem;
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    font-weight: 400;
+    color: rgb(84, 98, 133);
+}
+
+.home6-content-text a button{
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(53, 184, 190);
+    padding: 1.3rem 2.5rem;
+    border-radius: .5rem;
+    border: none;
+}
+
+.home6-content-image{
+    margin-right: 9rem;
+}
