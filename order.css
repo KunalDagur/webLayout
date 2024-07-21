@@ -1,0 +1,536 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+header .header-text{
+    text-align: center;
+    font-size: 0.938rem;
+    background-color: rgb(84, 198, 198);
+    padding: 1rem 3%;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+header .header-text a{
+    text-decoration: none;
+    color: white;
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem 11rem;
+}
+
+header .navbar .nav-logo:hover{
+    cursor: pointer;
+}
+
+header .navbar .nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .navbar .nav-list li{
+    list-style: none;
+    margin-left: 2rem;
+}
+header .navbar .nav-list li:nth-child(2) a{
+    color: rgb(84, 198, 198);
+}
+
+header .navbar .nav-list li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: rgb(40, 34, 75);
+}
+
+.navbar .nav-list .nav-box{
+    margin-left: 3rem;
+    width: 3.6rem;
+    height: 3.6rem;
+    background-color: rgb(61, 132, 132);
+    border-radius: .4rem;
+}
+
+.navbar .nav-list .nav-box:hover{
+    cursor: pointer;
+}
+
+.navbar .nav-list .nav-box img{
+    margin-top: 25%;
+    margin-left: 25%;
+}
+
+/* +++++++++++++++++++++++++++++++++ */
+
+.home1{
+    margin: 2rem 0rem;
+    background-color: aliceblue;
+}
+
+
+.home1-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem 25rem;
+} 
+
+.home1-text h1{
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+    font-weight: 700;
+}
+
+.home1-text h1 span{
+    color: rgb(66, 206, 206);
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++ */
+
+.home2-content{
+    padding: 3rem 9rem 0rem 9rem;
+    margin: 2rem 2rem;
+}
+
+.home2-content-tab{
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.home2-content-tab a button{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: rgb(34, 34, 34);
+    padding: 1.2rem 3.5rem;
+    margin-left: 1.5rem;
+    border-radius: .4rem;
+    border: .1px solid grey;
+}
+
+.home2-content-tab a:nth-child(1) button{
+    background-color: rgb(18, 194, 194);
+    color: white;
+}
+
+.home2-content-tab a button:hover{
+    cursor: pointer;
+}
+
+.home2-content-containers{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.home2-content-container-box{
+    display: flex;
+    margin: 1rem;
+    border-radius: .5rem;
+    background-color: white;
+    border: .5px solid grey;
+}
+
+.home2-content-container-box:hover{
+    transition: .3s;
+    border: 1px solid rgb(18, 194, 194);
+}
+
+.home2-content-container-box .img{
+    padding: 2rem 1.5rem;
+}
+
+.home2-content-container-box .img img{
+    border-radius: 1rem;
+    width: 7.3rem;
+}
+
+.home2-content-container-box .img img:hover{
+    cursor: pointer;
+}
+
+.home2-container-box-text{
+    padding: 2rem 1.5rem 0rem 0rem;
+}
+
+.home2-container-box-text .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home2-container-box-text .price a{
+    text-decoration: none;
+    color: rgb(53, 184, 190);
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.home2-container-box-text h6{
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    color: rgb(8, 9, 10);
+}
+
+.home2-container-box-text p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgb(84, 98, 133);
+}
+
+.home2-container-box-input{
+    margin-top: .7rem;
+    margin-bottom: 1.5rem;
+}
+
+.home2-container-box-input .amount{
+    font-size: .938rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    width: 3.5rem;
+    padding: .6rem .3rem .6rem .5rem;
+    border-radius: .3rem;
+    border: 1px solid black;
+    background-color: azure;
+}
+
+.home2-container-box-input .button{
+    font-size: .938rem;
+    line-height: normal;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 184, 190);
+    border: none;
+    padding: .8rem 1.3rem;
+    border-radius: .5rem;
+}
+
+.home2-container-box-input .button:hover{
+    cursor: pointer;
+    background-color: rgb(39, 175, 182);
+}
+
+.menu-button{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.menu-button button{
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(53, 184, 190);
+    padding: 1.3rem 2.5rem;
+    border-radius: .5rem;
+    border: none;
+}
+
+.menu-button button:hover{
+    background-color: rgb(39, 175, 182);
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+/* +++++++++++++++++++++++++++++ */
+
+.home2-content-slides{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.home2-content-slides-box{
+    display: flex;
+    margin: 1rem;
+    border-radius: .5rem;
+    background-color: white;
+    border: .5px solid grey;
+}
+
+.home2-content-slides-box:hover{
+    transition: .3s;
+    border: 1px solid rgb(18, 194, 194);
+}
+
+.home2-content-slides-box .img{
+    padding: 2rem 1.5rem;
+}
+
+.home2-content-slides-box .img img{
+    border-radius: 1rem;
+    width: 7.3rem;
+}
+
+.home2-content-slides-box .img img:hover{
+    cursor: pointer;
+}
+
+.home2-slides-box-text{
+    padding: 2rem 1.5rem 0rem 0rem;
+}
+
+.home2-slides-box-text .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home2-slides-box-text .price a{
+    text-decoration: none;
+    color: rgb(53, 184, 190);
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.home2-slides-box-text h6{
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    color: rgb(8, 9, 10);
+}
+
+.home2-slides-box-text p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgb(84, 98, 133);
+}
+
+.home2-slides-box-input{
+    margin-top: .7rem;
+    margin-bottom: 1.5rem;
+}
+
+.home2-slides-box-input .amount{
+    font-size: .938rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    width: 3.5rem;
+    padding: .6rem .3rem .6rem .5rem;
+    border-radius: .3rem;
+    border: 1px solid black;
+    background-color: azure;
+}
+
+.home2-slides-box-input .button{
+    font-size: .938rem;
+    line-height: normal;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 184, 190);
+    border: none;
+    padding: .8rem 1.3rem;
+    border-radius: .5rem;
+}
+
+.home2-slides-box-input .button:hover{
+    cursor: pointer;
+    background-color: rgb(39, 175, 182);
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++ */
+
+.home2-content-drinks{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.home2-content-drinks-box{
+    display: flex;
+    margin: 1rem;
+    border-radius: .5rem;
+    background-color: white;
+    border: .5px solid grey;
+}
+
+.home2-content-drinks-box:hover{
+    transition: .3s;
+    border: 1px solid rgb(18, 194, 194);
+}
+
+.home2-content-drinks-box .img{
+    padding: 2rem 1.5rem;
+}
+
+.home2-content-drinks-box .img img{
+    border-radius: 1rem;
+    width: 7.3rem;
+}
+
+.home2-content-drinks-box .img img:hover{
+    cursor: pointer;
+}
+
+.home2-drinks-box-text{
+    padding: 2rem 1.5rem 0rem 0rem;
+}
+
+.home2-drinks-box-text .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home2-drinks-box-text .price a{
+    text-decoration: none;
+    color: rgb(53, 184, 190);
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.home2-drinks-box-text h6{
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    color: rgb(8, 9, 10);
+}
+
+.home2-drinks-box-text p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgb(84, 98, 133);
+}
+
+.home2-drinks-box-input{
+    margin-top: .7rem;
+    margin-bottom: 1.5rem;
+}
+
+.home2-drinks-box-input .amount{
+    font-size: .938rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    width: 3.5rem;
+    padding: .6rem .3rem .6rem .5rem;
+    border-radius: .3rem;
+    border: 1px solid black;
+    background-color: azure;
+}
+
+.home2-drinks-box-input .button{
+    font-size: .938rem;
+    line-height: normal;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 184, 190);
+    border: none;
+    padding: .8rem 1.3rem;
+    border-radius: .5rem;
+}
+
+.home2-drinks-box-input .button:hover{
+    cursor: pointer;
+    background-color: rgb(39, 175, 182);
+}
+
+
+/* +++++++++++++++++++ */
+
+.home3{
+    background-color: aliceblue;
+    padding: 7rem 11rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.home3-logo .logo p{
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    font-weight: 400;
+    color: rgb(84, 98, 133);
+}
+
+.home3-list{
+    margin-left: 8rem;
+    display: flex;
+    padding-right: 15rem;
+}
+
+.home3-list-item{
+    list-style: none;
+    margin-left: 2rem;
+}
+
+.home3-list-item p{
+    font-size: .813rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    color: rgb(8, 9, 10);
+}
+
+.home3-list-item li{
+    margin-top: 2rem;
+    width: 10rem;
+}
+
+.home3-list-item li a{
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: rgb(40, 34, 75);
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++ */
+
+footer{
+    background-color: aliceblue;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0rem 9rem;
+    padding: 1rem;
+}
+
+.footer-content .owner p a{
+    text-decoration: none;
+    color: rgb(53, 184, 190);
+}
+
+.footer-content .footer-profiles{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-content .footer-profiles i{ 
+    margin: 0rem .5rem;
+    padding: .7rem;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+.footer-content .footer-profiles i:hover{ 
+    border-color: rgb(53, 184, 190);
+    cursor: pointer;
+}
