@@ -39,7 +39,7 @@ header .navbar .nav-list{
 
 header .navbar .nav-list li{
     list-style: none;
-    margin-left: 3rem;
+    margin-left: 2rem;
 }
 
 header .navbar .nav-list li a{
@@ -50,6 +50,10 @@ header .navbar .nav-list li a{
     color: rgb(40, 34, 75);
 }
 
+header .navbar .nav-list li:nth-child(1) a{
+    color: rgb(84, 198, 198);
+}
+
 header .navbar .nav-list li a:hover{
     color: rgb(18, 194, 194);
     transition: .3s;
@@ -57,8 +61,8 @@ header .navbar .nav-list li a:hover{
 
 .navbar .nav-list .nav-box{
     margin-left: 3rem;
-    width: 4rem;
-    height: 4rem;
+    width: 3.6rem;
+    height: 3.6rem;
     background-color: rgb(61, 132, 132);
     border-radius: .4rem;
 }
@@ -274,6 +278,11 @@ header .navbar .nav-list li a:hover{
     text-align: center;
 }
 
+.home4-content-tab a:nth-child(1) button{
+    background-color: rgb(18, 194, 194);
+    color: white;
+}
+
 .home4-content-tab a button{
     font-size: 1rem;
     font-weight: 400;
@@ -282,15 +291,10 @@ header .navbar .nav-list li a:hover{
     padding: 1.2rem 3.5rem;
     margin-left: 1.5rem;
     border-radius: .4rem;
-    border: .1px solid grey;
+    border: .1rem solid grey;
 }
 
 .home4-content-tab a button:hover{
-    background-color: rgb(18, 194, 194);
-    color: white;
-    border: none;
-    padding: 1.2rem 3.5rem;
-    transition: .3s;
     cursor: pointer;
 }
 
@@ -315,6 +319,10 @@ header .navbar .nav-list li a:hover{
 .home4-content-container-box .img img{
     border-radius: 1rem;
     width: 7.3rem;
+}
+
+.home4-content-container-box .img img:hover{
+    cursor: pointer;
 }
 
 .home4-content-container-box .img{
@@ -408,6 +416,209 @@ header .navbar .nav-list li a:hover{
     cursor: pointer;
     transition: .3s;
 }
+
+
+/* +++++++++++++++++++++++++++++ */
+
+.home4-content-slides{
+    display: none;
+    grid-template-columns: auto auto;
+}
+
+
+.home4-content-slides-box{
+    display: flex;
+    margin: 1rem;
+    border-radius: .5rem;
+    background-color: white;
+    border: .5px solid grey;
+}
+
+.home4-content-slides-box:hover{
+    transition: .3s;
+    border: 1px solid rgb(18, 194, 194);
+}
+
+.home4-content-slides-box .img img{
+    border-radius: 1rem;
+    width: 7.3rem;
+}
+
+.home4-content-slides-box .img img:hover{
+    cursor: pointer;
+}
+
+.home4-content-slides-box .img{
+    padding: 2rem 1.5rem;
+}
+
+.home4-slides-box-text{
+    padding: 2rem 1.5rem 0rem 0rem;
+}
+
+.home4-slides-box-text .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home4-slides-box-text .price a{
+    text-decoration: none;
+    color: rgb(53, 184, 190);
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.home4-slides-box-text h6{
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    color: rgb(8, 9, 10);
+}
+
+.home4-slides-box-text p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgb(84, 98, 133);
+}
+
+.home4-slides-box-input{
+    margin-top: .7rem;
+    margin-bottom: 1.5rem;
+}
+
+.home4-slides-box-input .amount{
+    font-size: .938rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    width: 3.5rem;
+    padding: .6rem .3rem .6rem .5rem;
+    border-radius: .3rem;
+    border: 1px solid black;
+    background-color: azure;
+}
+
+.home4-slides-box-input .button{
+    font-size: .938rem;
+    line-height: normal;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 184, 190);
+    border: none;
+    padding: .8rem 1.3rem;
+    border-radius: .5rem;
+}
+
+.home4-slides-box-input .button:hover{
+    cursor: pointer;
+    background-color: rgb(39, 175, 182);
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++ */
+
+.home4-content-drinks{
+    display: none;
+    grid-template-columns: auto auto;
+}
+
+
+.home4-content-drinks-box{
+    display: flex;
+    margin: 1rem;
+    border-radius: .5rem;
+    background-color: white;
+    border: .5px solid grey;
+}
+
+.home4-content-drinks-box:hover{
+    transition: .3s;
+    border: 1px solid rgb(18, 194, 194);
+}
+
+.home4-content-drinks-box .img img{
+    border-radius: 1rem;
+    width: 7.3rem;
+}
+
+.home4-content-drinks-box .img img:hover{
+    cursor: pointer;
+}
+
+.home4-content-drinks-box .img{
+    padding: 2rem 1.5rem;
+}
+
+.home4-drinks-box-text{
+    padding: 2rem 1.5rem 0rem 0rem;
+}
+
+.home4-drinks-box-text .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home4-drinks-box-text .price a{
+    text-decoration: none;
+    color: rgb(53, 184, 190);
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.home4-drinks-box-text h6{
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    color: rgb(8, 9, 10);
+}
+
+.home4-drinks-box-text p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: rgb(84, 98, 133);
+}
+
+.home4-drinks-box-input{
+    margin-top: .7rem;
+    margin-bottom: 1.5rem;
+}
+
+.home4-drinks-box-input .amount{
+    font-size: .938rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    width: 3.5rem;
+    padding: .6rem .3rem .6rem .5rem;
+    border-radius: .3rem;
+    border: 1px solid black;
+    background-color: azure;
+}
+
+.home4-drinks-box-input .button{
+    font-size: .938rem;
+    line-height: normal;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 184, 190);
+    border: none;
+    padding: .8rem 1.3rem;
+    border-radius: .5rem;
+}
+
+.home4-drinks-box-input .button:hover{
+    cursor: pointer;
+    background-color: rgb(39, 175, 182);
+}
+
+
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
