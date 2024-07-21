@@ -1,0 +1,256 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+header .header-text {
+    text-align: center;
+    font-size: 0.938rem;
+    background-color: rgb(84, 198, 198);
+    padding: 1rem 3%;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+header .header-text a {
+    text-decoration: none;
+    color: white;
+}
+
+header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem 11rem;
+}
+
+header .navbar .nav-logo:hover {
+    cursor: pointer;
+}
+
+header .navbar .nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .navbar .nav-list li {
+    list-style: none;
+    margin-left: 2rem;
+}
+
+header .navbar .nav-list li:nth-child(4) a {
+    color: rgb(84, 198, 198);
+}
+
+header .navbar .nav-list li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: rgb(40, 34, 75);
+}
+
+.navbar .nav-list .nav-box {
+    margin-left: 3rem;
+    width: 3.6rem;
+    height: 3.6rem;
+    background-color: rgb(61, 132, 132);
+    border-radius: .4rem;
+}
+
+.navbar .nav-list .nav-box:hover {
+    cursor: pointer;
+}
+
+.navbar .nav-list .nav-box img {
+    margin-top: 25%;
+    margin-left: 25%;
+}
+
+/* +++++++++++++++++++++++++++ */
+
+.home1 {
+    margin: 2rem 0rem;
+    background-color: aliceblue;
+}
+
+
+.home1-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 10rem 27rem;
+}
+
+.home1-text h1 {
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+    font-weight: 700;
+}
+
+.home1-text h1 span {
+    color: rgb(66, 206, 206);
+}
+
+/* ++++++++++++++++++++++++++++++++++++++ */
+
+.home2{
+    margin: 3rem 0rem 0rem 0rem;
+    text-align: center;
+}
+
+.home2-buttons{
+    margin: 2rem;
+}
+
+.home2-buttons a button{
+    background-color: white;
+    border: .1rem solid grey;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    border-radius: .3rem;
+}
+
+.home2-buttons a button:hover{
+    cursor: pointer;
+}
+
+.home2-buttons a:nth-child(1) button{
+    background-color: rgb(84, 198, 198);
+    border: none;
+    color: white;
+    padding: 1rem 3rem;
+}
+
+.home2-buttons a:nth-child(2) button{
+    margin-left: 1.5rem;
+    padding: .9rem 3rem;
+}
+
+.home2-buttons a:nth-child(3) button{
+    margin-left: 1.5rem;
+    padding: .9rem 3rem;
+}
+
+.home2-questions-food{
+    padding: 2rem 17rem;
+}
+
+.home2-questions-delivery{
+    padding: 2rem 17rem;
+    display: none;
+}
+
+.home2-questions-company{
+    padding: 2rem 17rem;
+    display: none;
+}
+
+.question-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+    padding: 2.5rem 1.5rem 2.5rem 0rem;
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    color: rgb(53, 184, 190);
+}
+
+.question-title:hover{
+    cursor: pointer;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++ */
+
+.home4{
+    background-color: aliceblue;
+    padding: 7rem 11rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.home4-logo .logo p{
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    font-weight: 400;
+    color: rgb(84, 98, 133);
+}
+
+.home4-list{
+    margin-left: 8rem;
+    display: flex;
+    padding-right: 11rem;
+}
+
+.home4-list-item{
+    list-style: none;
+    margin-left: 3rem;
+}
+
+.home4-list-item p{
+    font-size: .813rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    color: rgb(8, 9, 10);
+}
+
+.home4-list-item li{
+    margin-top: 2rem;
+    width: 10rem;
+}
+
+.home4-list-item li a{
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: rgb(40, 34, 75);
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++ */
+
+footer{
+    background-color: aliceblue;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0rem 9rem;
+    padding: 1rem;
+}
+
+.footer-content .owner p a{
+    text-decoration: none;
+    color: rgb(53, 184, 190);
+}
+
+.footer-content .footer-profiles{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-content .footer-profiles i{ 
+    margin: 0rem .5rem;
+    padding: .7rem;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+.footer-content .footer-profiles i:hover{ 
+    border-color: rgb(53, 184, 190);
+    cursor: pointer;
+}
